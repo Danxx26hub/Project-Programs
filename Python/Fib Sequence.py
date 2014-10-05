@@ -5,7 +5,7 @@
 
 def nthFib(n):
   fibTerms = [0, 1]
-  while len(fibTerms) < n-1:
+  while int(len(fibTerms)) < n-1:
     a = fibTerms(len(fibTerms)) - 1
     b = fibTerms(len(fibTerms)) - 2
     nextTerm = a + b
@@ -14,7 +14,7 @@ def nthFib(n):
 
 def lessFib(n):
   fibTerms = [0,1]
-  while fibTerms[len(fibTerms) - 1] < n:
+  while int(fibTerms[len(fibTerms) - 1]) < int(n):
     a = fibTerms(len(fibTerms)) - 1
     b = fibTerms(len(fibTerms)) - 2
     nextTerm = a + b
@@ -26,8 +26,8 @@ choice = input()
 print("Now give your n value.")
 n = input()
 
-if choice = 1:
+if choice == 1:
   print(nthFib(n))
   
-  else:
-    print(lessFib(n))
+else:
+  print(lessFib(n))
