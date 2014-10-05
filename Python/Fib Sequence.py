@@ -24,6 +24,10 @@ def lessFib(n):
 print("For the first n Fibonacci terms, enter 1. For Fibonacci terms < n, enter 2.")
 choice = input()
 print("Now give your n value.")
+n = input()
 
-if n = 1:
-  print(nthFib(n)
+if choice = 1:
+  print(nthFib(n))
+  
+  else:
+    print(lessFib(n))
