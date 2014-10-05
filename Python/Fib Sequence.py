@@ -5,7 +5,7 @@
 
 def nthFib(n):
   fibTerms = [0, 1]
-  while int(len(fibTerms)) < int(n):
+  while len(fibTerms) < n:
     a = fibTerms[len(fibTerms)-1]
     b = fibTerms[len(fibTerms)-2]
     nextTerm = a + b
