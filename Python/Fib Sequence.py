@@ -12,3 +12,18 @@ def nthFib(n):
     fibTerms.append(nextTerm)
   return fibTerms
 
+def lessFib(n):
+  fibTerms = [0,1]
+  while fibTerms[len(fibTerms) - 1] < n:
+    a = fibTerms(len(fibTerms)) - 1
+    b = fibTerms(len(fibTerms)) - 2
+    nextTerm = a + b
+    fibTerms.append(nextTerm)
+  return fibTerms
+  
+print("For the first n Fibonacci terms, enter 1. For Fibonacci terms < n, enter 2.")
+choice = input()
+print("Now give your n value.")
+
+if n = 1:
+  print(nthFib(n)
