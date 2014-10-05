@@ -5,9 +5,9 @@
 
 def nthFib(n):
   fibTerms = [0, 1]
-  while int(len(fibTerms)) < n-1:
-    a = fibTerms(len(fibTerms)) - 1
-    b = fibTerms(len(fibTerms)) - 2
+  while int(len(fibTerms)) < int(n):
+    a = fibTerms[len(fibTerms)-1]
+    b = fibTerms[len(fibTerms)-2]
     nextTerm = a + b
     fibTerms.append(nextTerm)
   return fibTerms
@@ -15,10 +15,15 @@ def nthFib(n):
 def lessFib(n):
   fibTerms = [0,1]
   while int(fibTerms[len(fibTerms) - 1]) < int(n):
-    a = fibTerms(len(fibTerms)) - 1
-    b = fibTerms(len(fibTerms)) - 2
+    a = fibTerms[len(fibTerms)-1]
+    b = fibTerms[len(fibTerms)-2]
     nextTerm = a + b
     fibTerms.append(nextTerm)
+
+  if int(nextTerm) > int(n):
+    fibTerms.remove(nextTerm)
+  else:
+    c=2
   return fibTerms
   
 print("For the first n Fibonacci terms, enter 1. For Fibonacci terms < n, enter 2.")
