@@ -20,4 +20,7 @@ dime = 0
 nickel = 0
 penney = 0
 
-while return >= 0:
+while return > 0:
+  
+  if return % 100 = 0:
+    return = return - 100
