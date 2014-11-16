@@ -10,6 +10,6 @@ h = input()
 print('What is the cost per unit of area?')
 c = input()
 
-tc = w * h * c
+tc = float(w) * float(h) * float(c)
 
 print('Total Cost: ' + str(tc))
