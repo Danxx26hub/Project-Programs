@@ -7,7 +7,7 @@ cost = input()
 print('How much money is given?')
 given = input()
 
-return = float(given) - float(cost)
+change = float(given) - float(cost)
 
 hundred = 0
 fifty = 0
@@ -20,7 +20,20 @@ dime = 0
 nickel = 0
 penney = 0
 
-while return > 0:
+while change > 0:
   
-  if return % 100 = 0:
-    return = return - 100
+  if change % 100 == 0:
+    change = change - 100
+    hundred = hundred + 1
+
+  elif change % 50 == 0:
+    change = change - 50
+    fifty = fifty + 1
+
+  elif change % 20 == 0:
+    change = change - 20
+    twenty = twenty + 1
+
+  elif change % 10 == 0:
+    change = change - 10
+    ten = ten + 1
