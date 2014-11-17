@@ -21,3 +21,6 @@ while int(count) < int(flips):
   
   else:
     heads = heads + 1
+
+print('Tails: ' + str(tails))
+print('Heads: ' + str(heads))
