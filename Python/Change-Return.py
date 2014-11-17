@@ -37,3 +37,13 @@ while change > 0:
   elif change % 10 == 0:
     change = change - 10
     ten = ten + 1
+  
+  elif change % 5 == 0:
+    change = change - 5
+    five = five + 1
+    
+  elif change % 1 == 0:
+    change = change -1
+    one = one + 1
+    
+  elif change 
