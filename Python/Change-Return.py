@@ -20,6 +20,8 @@ dime = 0
 nickel = 0
 penney = 0
 
+amt = [hundred, fifty, twenty, ten, five, one, quarter, dime, nickel, penny]
+
 while change > 0:
   
   if change % 100 == 0:
@@ -43,7 +45,23 @@ while change > 0:
     five = five + 1
     
   elif change % 1 == 0:
-    change = change -1
+    change = change - 1
     one = one + 1
     
-  elif change 
+  elif change % .25 ==0:
+    change = change - .25
+    quarter = quarter + 1
+    
+  elif change % .1 == 0:
+    change = change - .1
+    dime = dime + 1
+    
+  elif change % .05 == 0:
+    change = change - .05
+    nickel = nickel + 1
+    
+  else:
+    change = change - .01
+    penny = penny + 1
+    
+print(amt)
