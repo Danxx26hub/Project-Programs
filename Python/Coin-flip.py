@@ -11,4 +11,13 @@ count = 0
 tails = 0
 heads = 0
 
+n = 0
+
 while int(count) < int(flips):
+  n = random.randint(1,2)
+  
+  if n == 1:
+    tails = tails + 1
+  
+  else:
+    heads = heads + 1
