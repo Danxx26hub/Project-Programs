@@ -18,7 +18,7 @@ one = 0
 quarter = 0 
 dime = 0
 nickel = 0
-penney = 0
+penny = 0
 
 amt = [hundred, fifty, twenty, ten, five, one, quarter, dime, nickel, penny]
 
