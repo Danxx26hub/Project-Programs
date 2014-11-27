@@ -1,7 +1,10 @@
 #Calculate the total cost of tile it would take to cover a 
 #floor plan of width and height, using a cost entered by the user.
 
-print('What is the width?')
+print('What are the units of length?')
+lUnit = input()
+
+print('What is the width in ' + lUnit + ' ?')
 w = input()
 
 print('What is the height?')
