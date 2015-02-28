@@ -80,7 +80,7 @@ Data Structures
 Text
 ---------
 
-**Reverse a String** - Enter a string and the program will reverse it and print it out.
+[**Reverse a String**](https://github.com/vdrey/Project-Programs/blob/master/Python/reverseString.py)
 
 **Pig Latin** - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
 
@@ -98,7 +98,7 @@ Text
 
 **Guestbook / Journal** - A simple application that allows people to add comments or write journal entries. It can allow comments or not and timestamps for all entries. Could also be made into a shout box. *Optional: Deploy it on Google App Engine or Heroku or any other PaaS (if possible, of course).*
 
-**Vigenere / Vernam / Ceasar Ciphers** - Functions for encrypting and decrypting data messages. Then send them to a friend.
+[**Vigenere / Vernam / Ceasar Ciphers**](https://github.com/vdrey/Project-Programs/blob/master/Python/caesarCipher.py)
 
 **Regex Query Tool** - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
 
