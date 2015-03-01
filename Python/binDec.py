@@ -4,9 +4,14 @@ prompt = int(input("""1 for dec-->bin
 2 for bin-->dec
 > """))
 
-choice = int(input('number> '))
+choice = input('number> ')
 
-
-if choice == 1:
+if prompt == 1:
+    choice = int(choice)
     binary = bin(choice)
-    print(binary)
+    binary = str(binary)
+    print(binary[2:])
+
+if prompt == 2:
+    decimal = int(x=choice, base=2)
+    print(decimal)

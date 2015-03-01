@@ -20,7 +20,7 @@ Numbers
 
 [**Change Return Program**](https://github.com/vdrey/Project-Programs/blob/master/Python/Change-Return.py)
 
-**Binary to Decimal and Back Converter** - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
+[**Binary to Decimal and Back Converter**](https://github.com/vdrey/Project-Programs/blob/master/Python/binDec.py)
 
 **Calculator** - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 
