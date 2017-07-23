@@ -1,13 +1,13 @@
 #Asks the user to enter a cost and either a country or state tax. 
 #It then returns the tax plus the total cost with tax.
 
-print('What is the cost?')
+# print('What is the cost?')
 
-cost = input()
+cost = input('What is the cost?')
 
-print('What is the tax rate? (in %)')
+# print('What is the tax rate? (in %)')
 
-rate = input()
+rate = input('What is the tax rate? (in %):')
 
 rate = float(rate) / 100
 
